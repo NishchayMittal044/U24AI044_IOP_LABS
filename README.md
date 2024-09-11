@@ -1,5 +1,5 @@
 # U24AI044_IOP_LABS
-This repository is a collection on programs assigned in IOP Labs.
+This repository is a collection of programs assigned in IOP Labs.
 <br>
 All the codes are uploaded in separate branches please access them by selecting the respective branch.
 <br>
