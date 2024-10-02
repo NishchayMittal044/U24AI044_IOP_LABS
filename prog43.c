@@ -21,6 +21,6 @@ int main()
     {
         c = s * 0.125;
     }
-    printf("The Sommission according to the Sales %f is %f ", s, c);
+    printf("The Commission according to the Sales %f is %f ", s, c);
     return 0;
 }
