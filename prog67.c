@@ -4,7 +4,7 @@
 #include <stdio.h>
 int main()
 {
-    int a[3][3], b[3][3], sum[3][3];
+    int a[3][3], b[3][3], diff[3][3];
 
     // THE FIRST  MATRIX
     printf("Enter the Matrix elements of the First Matrix :");
@@ -50,16 +50,16 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            sum[i][j] = a[i][j] - b[i][j];
+            diff[i][j] = a[i][j] - b[i][j];
         }
     }
 
-    printf("The Matrix obatined after addition of the 1st and 2nd Matrix is :\n");
+    printf("The Matrix obatined after subtraction of the 1st and 2nd Matrix is :\n");
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
         {
-            printf("%d ", sum[i][j]);
+            printf("%d ", diff[i][j]);
         }
         printf("\n");
     }
