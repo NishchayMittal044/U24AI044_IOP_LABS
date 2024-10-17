@@ -33,7 +33,7 @@ int main()
         if (num2 == 0)
         {
             printf("Not Defined");
-            return 1;
+            break;
         }
         else
         {
