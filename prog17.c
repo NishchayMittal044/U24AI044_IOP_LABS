@@ -10,7 +10,7 @@ int main()
     {
         printf("The greatest number is %d", num1);
     }
-    if (num2 > num3 && num2 > num1 == 1)
+    else if (num2 > num3 && num2 > num1 == 1)
     {
         printf("The greatest number is %d", num2);
     }
